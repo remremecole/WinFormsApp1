@@ -35,7 +35,7 @@ namespace WinFormsApp1
             //Afficher ces valeurs dans une MessageBox
             string nom = txtNom.Text;
             string email = txtEmail.Text;
-
+            //test modif
             if (nom == "" || email == "")
             {
                 MessageBox.Show("Veuillez compléter tout les champs");
